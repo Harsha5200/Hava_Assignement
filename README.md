@@ -4,7 +4,8 @@ Setup
 
 Clone the repository or download the project files.
 Install dependencies:
-npm install
+npm init -y
+npm install express sequelize sqlite3 csv-parse xlsx
 
 Ensure you have a Database.xlsx file in the root directory with sheets named "airport", "city", and "country".
 Populate the database:
